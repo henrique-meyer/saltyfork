@@ -20,5 +20,7 @@ Update both when the brand changes.
 
 The hero uses a cropped, web-sized transparent full-body PNG (1000 pixels tall).
 The full-resolution PNG and SVG trace are preserved in `assets/`. The navy header/footer/favicon
-uses the existing `logo-mark-square-tight.svg` framing. A full-body SVG trace is
+uses the simplified `icon-chef-v2.png` design, with a 192-pixel web derivative and
+separate multi-size ICO. Earlier tight square SVG icons remain in `assets/`.
+A full-body SVG trace is
 saved in the main assets directory for reference; it is not used in the hero.

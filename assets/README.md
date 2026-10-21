@@ -1,12 +1,16 @@
 # SaltyFork artwork
 
+- `icon-chef-v2-master.png`: new simplified icon concept, generated with the
+  built-in imagegen tool. Retained at full resolution.
+- `icon-chef-v2.png`: 192 × 192 PNG used for header/footer and the PNG favicon.
+  `favicon-v2.ico` contains the same icon at 16, 32, 48, 64, 128, and 256 pixels.
 - `saltyfork-full-body.png`: full-resolution transparent full-body mascot master.
 - `saltyfork-full-body.svg`: saved automatic vector trace for reference; the owner
   selected the PNG for the landing hero to retain the illustration's appearance.
 - `logo-icon-navy.svg` / `.png`: the `logo-mark-square-tight.svg` crop on the
-  original navy `#0C2340` background. Used for the landing header and footer.
+  original navy `#0C2340` background. Retained as the previous icon version.
 - `favicon.ico`: the same navy square icon at 16, 32, 48, 64, 128, and 256 pixels.
-  The landing also advertises the SVG icon as its modern favicon.
+  Retained as the previous icon version.
 - `web/landing/public/assets/mascot-full-body.png` (relative to the repository root):
   web-sized hero derivative. Crop the PNG master at x=190, y=13, width=688,
   height=1521, then resize to 1000 pixels tall and losslessly encode as PNG.
@@ -30,3 +34,7 @@ only empty surrounding space to a snug portrait bounding box with a little
 transparent padding; do not crop any part of the hat, tines, hands, spoon, or
 bottom handle. Asset intended for a landing page hero and subsequent SVG vector
 tracing. No text or watermark.
+
+## Simplified icon prompt (built-in imagegen)
+
+Use case: logo-brand. Create a fresh, polished app icon for SaltyFork, a recipe-sharing app. Square composition, solid deep navy #0C2340 background extending to every edge, with a centered bold ivory-white anthropomorphic four-tined fork chef head. The fork has a small white chef hat perched to the right, playful confident dark navy eyes and a subtle friendly smirk, plus one simple bright coral-red neckerchief at the bottom. Make the character read immediately as a fork, not a spoon: clearly separated long fork tines visible above the face. Design the silhouette and large shapes for a 32px favicon. Contemporary flat vector illustration aesthetic with beautifully controlled smooth shapes, thick clean outlines and very few interior lines; predominantly warm white, navy and coral red. Keep the entire chef hat and whole fork-head silhouette inside the square with balanced generous breathing room; no awkward cropped hat. Face should be inviting and a little mischievous, not sleepy or sinister. Strong contrast, crisp edges, no tiny details, no gradients, no metallic gray shading, no texture, no photorealism, no 3D, no border, no mockup, no text, no letters, no watermark, no icon grids or multiple alternatives. One finished icon only.
