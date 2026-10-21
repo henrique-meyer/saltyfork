@@ -1,9 +1,25 @@
 # SaltyFork artwork
 
+- `icon-chef-salty.svg`: current navy-outline icon on navy, with a subtle silver
+  fork, white hat, red scarf, half-lidded eyes, and a hat over two prongs.
+- `icon-chef-salty-black-transparent.svg`: the same vector geometry with black
+  outlines and no background.
+- `icon-chef-salty-black-blue.svg`: black outlines on the original navy `#0C2340`.
+- The three `*-preview.png` files are 512-pixel renders of these SVGs.
+- `tools/build-icon-vectors.py` rebuilds genuine paths from the approved outline
+  reference with Python 3.12, Pillow and vtracer 0.6.15, then applies shared colors,
+  silver shading and backgrounds. The SVGs contain 16 paths and no raster images.
+- `icon-chef-salty-master.png`: approved raster reference before vectorization,
+  with half-lidded salty eyes and a broad hat covering the two rightmost prongs.
+- `icon-chef-salty-black-transparent-master.png` and
+  `icon-chef-salty-black-blue-master.png`: generated outline reference masters.
+- `icon-chef-salty.png`: 192 × 192 PNG fallback rendered from the current SVG.
+  `favicon-salty.ico` contains the same silver icon at 16, 32, 48, 64, 128, and
+  256 pixels. The landing uses the SVG for header/footer and modern favicons.
 - `icon-chef-v2-master.png`: new simplified icon concept, generated with the
-  built-in imagegen tool. Retained at full resolution.
-- `icon-chef-v2.png`: 192 × 192 PNG used for header/footer and the PNG favicon.
-  `favicon-v2.ico` contains the same icon at 16, 32, 48, 64, 128, and 256 pixels.
+  built-in imagegen tool. Retained as the earlier wide-eyed attempt.
+- `icon-chef-v2.png`: earlier 192 × 192 PNG icon.
+  `favicon-v2.ico` contains the earlier icon at 16, 32, 48, 64, 128, and 256 pixels.
 - `saltyfork-full-body.png`: full-resolution transparent full-body mascot master.
 - `saltyfork-full-body.svg`: saved automatic vector trace for reference; the owner
   selected the PNG for the landing hero to retain the illustration's appearance.
